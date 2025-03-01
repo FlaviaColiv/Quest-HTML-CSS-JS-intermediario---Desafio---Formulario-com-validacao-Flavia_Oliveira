@@ -79,14 +79,33 @@ button {
     cursor: pointer;
 }
 
-.erro {
+span .erro {
     color: red;
-    font-size: 12px;
+    font-size: 15px;
     display: none;
+    border: 1px solid red;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
 }
 
 input.erro, textarea.erro {
     border-color: red;
 }
 
-/* #00C22B */
+spam.erro {
+    font-size: 8px;
+}
+
+.sucesso {
+    border: 1px solid #00C22B;
+}
+
+.mensagem-erro {
+    color: red;
+    font-size: 8px;
+    margin-top: 4px;
+    display: block;
+}
