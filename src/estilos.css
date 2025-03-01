@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    width: 800xp;
+    height: 402px;
+    background: 100vh url(./background/desafio3/3715c9cd9f8486e8d371be79339c8492.jpeg);
+    padding: 12px 50px;
+}
+
+.texto  {
+    /* width: 300px; */
+    height: 111px;
+    padding-top: 146px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.texto h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.texto p {
+    padding-top: 11px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container {
+    width: 340px;
+    height: 378px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    font-size: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border:  1px solid #000;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container p {
+    margin: 0 -10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #3CCC87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.erro {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+input.erro, textarea.erro {
+    border-color: red;
+}
+
+/* #00C22B */
