@@ -3,7 +3,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
     event.preventDefault(); 
     
     let valido = true;
-    const campos = ["nome", "email", "telefone", "duvida"];
+    const campos = ["nome", "email", "telefone", "mensagem"];
     
     campos.forEach(function(campo) {
         const input = document.getElementById(campo);
@@ -15,6 +15,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
             input.classList.remove("sucesso");
             mensagemErro.textContent = "Campo obrigatório";
             mensagemErro.classList.add("mensagem-erro");
+
         } else {
             input.classList.remove("erro");
             input.classList.add("sucesso");
@@ -23,7 +24,4 @@ document.getElementById("formulario").addEventListener("submit", function(event)
         }
     });
 
-    if (valido) {
-        alert("Formulário enviado com sucesso!");
-    }
 });
